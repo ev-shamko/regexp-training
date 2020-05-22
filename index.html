@@ -22,7 +22,7 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+(-[А-ЯЁа-яё])?[а-яё]*$" placeholder="Имя" maxlength="20" required />
+                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+((-)?([А-ЯЁ][а-яё]*|[а-яё]{2,}))?" placeholder="Имя" maxlength="20" required />
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="text" name="email" pattern="^[a-z1-9_-]*@[a-z1-9-]*.([a-z1-9-]*.)?[a-z]*$" placeholder="E-Mail" required />
