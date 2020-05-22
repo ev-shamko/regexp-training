@@ -1,4 +1,4 @@
-Tренировочный проект regExp
+Tренировочный проект regExp (develop branch)
 =====
 
 ### Cсылка на рабочую версию формы: https://ev-shamko.github.io/regexp-training/
